@@ -30,3 +30,11 @@ Run the following command:\
 `python plt2.py --traj_num 0`\
 (You can put any number from 0 to 499 since there are 500 eval trajectories)
  
+## Qualitative Results
+
+![image](https://user-images.githubusercontent.com/38180831/203160003-f3626f0d-98af-4ef7-ad54-dd4022c38d3c.png)
+
+
+## Quantitative Results
+
+![image](https://user-images.githubusercontent.com/38180831/203160120-9cfc2a90-51f4-4598-a4f3-b681bbf71775.png)
