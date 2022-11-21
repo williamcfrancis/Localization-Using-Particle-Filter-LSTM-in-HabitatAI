@@ -1,0 +1,4 @@
+configargparse==0.15.1
+tqdm==4.38.0
+ipdb==0.13.9
+tensorboard==1.15.0

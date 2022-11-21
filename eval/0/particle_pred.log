@@ -1,0 +1,5 @@
+INFO:root:torch.Size([30, 116, 80, 3])
+INFO:root:time elapse average 0.232680
+INFO:root:time elapse total 0.930719
+INFO:root:time elapses [0.6453886939998483, 0.1001441150001483, 0.0954360970063135, 0.0897500819992274]
+INFO:root:================ seperate line =================
