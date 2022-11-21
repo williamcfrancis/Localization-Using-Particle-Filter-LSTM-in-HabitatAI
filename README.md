@@ -1,6 +1,7 @@
 # Robot Localization using Particle Filter LSTM with Habitat AI
 
 This project explores the use of a new family of Long Short Term Memory networks applied to the problem of robot localization in the AI Habitat simulator. The LSTM used is a Particle Filter-LSTM which employs particle filtering as the embedded algorithmic prior. Several experiments are conducted to test the PF-LSTM by generating trajectories and collecting observations in Habitat simulator. The 3D-World in Habitat AI is converted to a 2D map to use as an input. Landmarks were introduced to provide 2D observations instead of 3D sensors. The results are evaluated by comparing the deviation of the resulting trajectories from PF-LSTM and the ground truth trajectories from the simulation. The estimated trajectories averaged an MSEof 0.4 from the ground truth, for a justifiable trade-off of reduction in training data by almost 460 times.
+![image](https://user-images.githubusercontent.com/38180831/203159744-506b3550-71d3-4ef6-9059-92a1a6a1a9b5.png)
 
 ## Setup
 1. To install required libraries, run the `pip install -r requirements.txt` command to setup on local machine
