@@ -12,19 +12,19 @@ These files are already provided in the folder
 ### Changing Configurations
 Currently, the number of epochs is set as 800 for training. To change that, go to configs/train.conf and edit the default parameters.
 ### Train Loop
-To run the train loop, run the following command on terminal:
+To run the train loop, run the following command on terminal:\
 `python main.py -c ./configs/train.conf`
 
 
 ### Inference
-For running inference, run the following command:
+For running inference, run the following command:\
 `python evaluate.py -c ./configs/eval.conf`
 
 This will save the generated particle tensors in ./eval
 
 
 ### Plotting
-Run the following command:
-`python plt2.py --traj_num 0`
+Run the following command:\
+`python plt2.py --traj_num 0`\
 (You can put any number from 0 to 499 since there are 500 eval trajectories)
  
