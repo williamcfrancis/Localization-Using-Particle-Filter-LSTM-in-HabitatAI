@@ -6,8 +6,8 @@ Several experiments were conducted to test the PF-LSTM by generating trajectorie
 
 In this project, we present the following contributions:
 
-An interface between a localization system which uses PF-LSTM and the Habitat-Sim simulator that can effectively evaluate the performance of PF-LSTM in different environments.
-A method for realizing the localization problem in a top-down map by translating the 3D Habitat environment to a 2D map environment and introducing landmarks that provide simulated observations.
+* An interface between a localization system which uses PF-LSTM and the Habitat-Sim simulator that can effectively evaluate the performance of PF-LSTM in different environments.
+* A method for realizing the localization problem in a top-down map by translating the 3D Habitat environment to a 2D map environment and introducing landmarks that provide simulated observations.
 
 ![image](https://user-images.githubusercontent.com/38180831/203159744-506b3550-71d3-4ef6-9059-92a1a6a1a9b5.png)
 ![image](https://user-images.githubusercontent.com/38180831/203159866-3b578832-7369-48ca-82ce-d4c66250cded.png)
