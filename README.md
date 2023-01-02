@@ -1,6 +1,14 @@
 ## Robot Localization using Particle Filter LSTM with Habitat AI
 
-This project explores the use of a new family of Long Short Term Memory networks applied to the problem of robot localization in the AI Habitat simulator. The LSTM used is a Particle Filter-LSTM which employs particle filtering as the embedded algorithmic prior. Several experiments are conducted to test the PF-LSTM by generating trajectories and collecting observations in Habitat simulator. The 3D-World in Habitat AI is converted to a 2D map to use as an input. Landmarks were introduced to provide 2D observations instead of 3D sensors. The results are evaluated by comparing the deviation of the resulting trajectories from PF-LSTM and the ground truth trajectories from the simulation. The estimated trajectories averaged an MSEof 0.4 from the ground truth, for a justifiable trade-off of reduction in training data by almost 460 times.
+This project explores the use of a new family of Long Short Term Memory networks applied to the problem of robot localization in the AI Habitat simulator. The LSTM used is a Particle Filter-LSTM which employs particle filtering as the embedded algorithmic prior.
+
+Several experiments were conducted to test the PF-LSTM by generating trajectories and collecting observations in the Habitat simulator. The 3D-World in Habitat AI was converted to a 2D map to use as an input, and landmarks were introduced to provide 2D observations instead of 3D sensors. The results were evaluated by comparing the deviation of the resulting trajectories from the PF-LSTM and the ground truth trajectories from the simulation. The estimated trajectories averaged an MSE of 0.4 from the ground truth, for a justifiable trade-off of reduction in training data by almost 460 times.
+
+In this project, we present the following contributions:
+
+An interface between a localization system which uses PF-LSTM and the Habitat-Sim simulator that can effectively evaluate the performance of PF-LSTM in different environments.
+A method for realizing the localization problem in a top-down map by translating the 3D Habitat environment to a 2D map environment and introducing landmarks that provide simulated observations.
+
 ![image](https://user-images.githubusercontent.com/38180831/203159744-506b3550-71d3-4ef6-9059-92a1a6a1a9b5.png)
 ![image](https://user-images.githubusercontent.com/38180831/203159866-3b578832-7369-48ca-82ce-d4c66250cded.png)
 
